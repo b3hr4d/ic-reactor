@@ -1,0 +1,58 @@
+{
+  "name": "@ic-reactor/svelte",
+  "version": "0.1.1",
+  "description": "A library for intracting with the Internet Computer canisters",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:B3Pay/ic-reactor.git"
+  },
+  "keywords": [
+    "actor",
+    "react",
+    "candid",
+    "dfinity",
+    "web3",
+    "dapp"
+  ],
+  "author": "b3hr4d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b3hr4d/ic-reactor/issues"
+  },
+  "homepage": "https://b3pay.github.io/ic-reactor/modules/core.html",
+  "peerDependencies": {
+    "@dfinity/agent": "^1.2",
+    "@dfinity/auth-client": "^1.2",
+    "@dfinity/candid": "^1.2",
+    "@dfinity/identity": "^1.2",
+    "@dfinity/principal": "^1.2",
+    "svelte": "^4.2"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^1.2",
+    "@dfinity/auth-client": "^1.2",
+    "@dfinity/candid": "^1.2",
+    "@dfinity/identity": "^1.2",
+    "@dfinity/principal": "^1.2",
+    "svelte": "^4.2",
+    "zustand": "^4.5"
+  },
+  "devDependencies": {
+    "svelte-jester": "^3.0.0"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest",
+    "start": "tsc watch",
+    "build": "npx tsc",
+    "clean": "npx rimraf dist && npx rimraf umd && npx rimraf node_modules"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "gitHead": "431ada43e07a49e66bb7e425c8a97521da084354"
+}

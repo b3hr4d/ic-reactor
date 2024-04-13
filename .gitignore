@@ -19,5 +19,3 @@ examples/*/deps/candid
 docs
 .nx
 umd
-
-packages/svelte

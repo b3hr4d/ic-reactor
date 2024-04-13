@@ -2087,7 +2087,8 @@ __metadata:
     "@dfinity/candid": "npm:^1.2"
     "@dfinity/identity": "npm:^1.2"
     "@dfinity/principal": "npm:^1.2"
-    svelte: "npm:^4.2.14"
+    svelte: "npm:^4.2"
+    svelte-jester: "npm:^3.0.0"
     zustand: "npm:^4.5"
   peerDependencies:
     "@dfinity/agent": ^1.2
@@ -2095,6 +2096,7 @@ __metadata:
     "@dfinity/candid": ^1.2
     "@dfinity/identity": ^1.2
     "@dfinity/principal": ^1.2
+    svelte: ^4.2
   languageName: unknown
   linkType: soft
 
@@ -20504,7 +20506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-jester@npm:3.0":
+"svelte-jester@npm:3.0, svelte-jester@npm:^3.0.0":
   version: 3.0.0
   resolution: "svelte-jester@npm:3.0.0"
   peerDependencies:
@@ -20514,7 +20516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^4.2.14":
+"svelte@npm:^4.2":
   version: 4.2.14
   resolution: "svelte@npm:4.2.14"
   dependencies:
