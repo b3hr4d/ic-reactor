@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"]
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "clean": "deno run clean.ts",
+    "test": "deno test",
+    "lint": "deno lint",
+    "e2e": "cd e2e && deno run test.ts",
+    "docs:serve": "deno run --allow-net docs/serve.ts",
+    "docs:build": "deno run docs/build.ts"
+  }
+}
